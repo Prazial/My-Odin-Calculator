@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-Odin-Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Add this to your <head> section -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Roboto+Flex:opsz,wght,wdth,GRAD@8..144,100..1000,25..151,-200..150&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="c:\Users\Nikki\repos\My-Odin-Calculator\favicon.ico">
 </head>
 <body>
-    <h1 style="text-align: center; color: orange;">My-Odin-Calculator</h1>
+    <h1 class="header m3-headline-expressive">My-Odin-Calculator</h1>
     <div class="calculator">
      <div class="display">
         <div class="previousNumber" id="previous-number"></div>
@@ -35,7 +40,7 @@
             <button class="btn operator"  style="border-radius: 40%;">+</button>
            
             <button class="btn" data-value="0" style="border-radius: 40%;">0</button>
-            <button class="btn operator" data-value="." style="border-radius: 40%;">.</button>
+            <button class="btn decimal"  style="border-radius: 40%;">.</button>
             <button class="btn clear" id="clear" style="border-radius: 40%;">Del</button>
             <button class="btn operator equals " data-value="=" style="border-radius: 40%;">=</button>
 

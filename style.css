@@ -1,8 +1,39 @@
+:root {
+  --m3-expressive-font: 'Roboto Flex', sans-serif;
+}
+
+.m3-headline-expressive {
+  font-family: var(--m3-expressive-font);
+  font-weight: 600; /* Bold/Extra Bold for expression */
+  font-variation-settings: "wdth" 120, "GRAD" 50; /* Adjusting variable axes */
+  letter-spacing: -0.02em;
+  font-size: 2.5rem;
+}
+
+/* Expressive Button Label */
+.m3-button-expressive {
+  font-family: var(--m3-expressive-font);
+  font-weight: 700;
+  text-transform: none; /* M3 uses sentence case, not all caps */
+  letter-spacing: 0.1px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
+    background-image: linear-gradient(135deg, #ff00de, #00fff2);
+  /* Optional: Fixes background for scrolling */
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--m3-expressive-font);
+    color: #fe6233;
+    font-style: italic;
 }
 .calculator {
     background-color: black;
