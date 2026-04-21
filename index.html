@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Odin-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: orange;">My-Odin-Calculator</h1>
+    <div class="calculator">
+     <div class="display">
+        <div class="previousNumber" id="previous-number"></div>
+        <div class="currentNumber" id="current-number">0</div>
+     </div>
+        <div class="buttons">
+            <button class="btn allclear" id="clear" style="border-radius: 40%">AC</button>
+            <button class="btn operator" data-value="()"  style="border-radius: 40%">( )</button>
+            <button class="btn operator" data-value="%"  style="border-radius: 40%">%</button>
+            <button class="btn operator" data-value="/"  style="border-radius: 40%">/</button>
+            
+            <button class="btn" data-value="7" style="border-radius: 40%;">7</button>
+            <button class="btn" data-value="8" style="border-radius: 40%;">8</button>
+            <button class="btn" data-value="9" style="border-radius: 40%;">9</button>
+            <button class="btn operator" data-value="*" style="border-radius: 40%;">x</button>
+            
+            <button class="btn" data-value="4" style="border-radius: 40%;">4</button>
+            <button class="btn" data-value="5" style="border-radius: 40%;">5</button>
+            <button class="btn" data-value="6" style="border-radius: 40%;">6</button>
+            <button class="btn operator" data-value="-" style="border-radius: 40%;">-</button>
+               
+            <button class="btn" data-value="1" style="border-radius: 40%;">1</button>
+            <button class="btn" data-value="2" style="border-radius: 40%;">2</button>
+            <button class="btn" data-value="3" style="border-radius: 40%;">3</button>
+            <button class="btn operator"  style="border-radius: 40%;">+</button>
+           
+            <button class="btn" data-value="0" style="border-radius: 40%;">0</button>
+            <button class="btn operator" data-value="." style="border-radius: 40%;">.</button>
+            <button class="btn clear" id="clear" style="border-radius: 40%;">Del</button>
+            <button class="btn operator equals " data-value="=" style="border-radius: 40%;">=</button>
+
+            
+        </div>
+</body>
+<script src="script.js"></script>
+</html>
